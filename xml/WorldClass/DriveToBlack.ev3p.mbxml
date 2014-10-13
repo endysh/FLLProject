@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_024_MoveTank">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="power" DisplayName="power" Direction="Input" Identification="Identification_203_Speed_Plus75.png" DataType="Single" DefaultValue="50" />
+        <ParamInfo Name="lightblack" DisplayName="lightblack" Direction="Input" Identification="Identification_413_Threshold_Less_-1.png" DataType="Single" DefaultValue="10" />
+        <ParamInfo Name="lightborder" DisplayName="lightborder" Direction="Input" Identification="Identification_412_Threshold_Less_0.png" DataType="Single" DefaultValue="25" />
+        <ParamInfo Name="error" DisplayName="error" Direction="Input" Identification="Identification_054_OutputDistance.png" DataType="Single" DefaultValue="2" />
+        <ParamInfo Name="gain" DisplayName="gain" Direction="Input" Identification="Identification_062_Rate.png" DataType="Single" DefaultValue="0.5" />
+        <ParamInfo Name="timeout" DisplayName="timeout" Direction="Input" Identification="Identification_240_Time.png" DataType="Single" DefaultValue="5" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>

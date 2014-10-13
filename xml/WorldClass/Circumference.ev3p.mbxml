@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_001_Myblock">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="diameter" DisplayName="diameter" Direction="Input" Identification="Identification_053_DistanceInches.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="circumference" DisplayName="circumference" Direction="Output" Identification="Identification_054_OutputDistance.png" DataType="Single" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>

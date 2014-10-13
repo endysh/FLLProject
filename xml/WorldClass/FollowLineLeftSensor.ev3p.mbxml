@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_051_ColorSensor">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="power" DisplayName="power" Direction="Input" Identification="Identification_204_Speed_Plus100.png" DataType="Single" DefaultValue="50" />
+        <ParamInfo Name="light" DisplayName="light" Direction="Input" Identification="Identification_264_Volume_100.png" DataType="Single" DefaultValue="45" />
+        <ParamInfo Name="gain" DisplayName="gain" Direction="Input" Identification="Identification_062_Rate.png" DataType="Single" DefaultValue="0.2" />
+        <ParamInfo Name="side" DisplayName="side" Direction="Input" Identification="Identification_514_OutputCompare.png" DataType="Boolean" DefaultValue="False" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>

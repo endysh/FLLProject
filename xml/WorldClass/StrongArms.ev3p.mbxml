@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_001_Myblock">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="angle" DisplayName="angle" Direction="Input" Identification="Identification_283_DegreesAngle_Plus135.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="error" DisplayName="error" Direction="Input" Identification="Identification_054_OutputDistance.png" DataType="Single" DefaultValue="2" />
+        <ParamInfo Name="gain" DisplayName="gain" Direction="Input" Identification="Identification_062_Rate.png" DataType="Single" DefaultValue="5" />
+        <ParamInfo Name="power" DisplayName="power" Direction="Input" Identification="Identification_202_Speed_Plus50.png" DataType="Single" DefaultValue="30" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
