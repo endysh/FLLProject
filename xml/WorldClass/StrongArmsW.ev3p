@@ -33,7 +33,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w20" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w16" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableMethodCall Id="n33" Bounds="243 187 101 91" Target="X3\.Lib:GlobalSetSingle">
+                <ConfigurableMethodCall Id="n33" Bounds="241 187 101 91" Target="X3\.Lib:GlobalSetSingle">
                     <ConfigurableMethodTerminal ConfiguredValue="cageError">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -47,7 +47,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w16" Joints="N(n19:SequenceOut) N(n33:SequenceIn)" />
-                <ConfigurableMethodCall Id="n43" Bounds="344 187 101 91" Target="X3\.Lib:GlobalSetSingle">
+                <ConfigurableMethodCall Id="n43" Bounds="342 187 101 91" Target="X3\.Lib:GlobalSetSingle">
                     <ConfigurableMethodTerminal ConfiguredValue="cageGain">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -61,7 +61,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w10" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w13" Joints="N(n33:SequenceOut) N(n43:SequenceIn)" />
-                <ConfigurableMethodCall Id="n46" Bounds="445 187 101 91" Target="X3\.Lib:GlobalSetSingle">
+                <ConfigurableMethodCall Id="n46" Bounds="443 187 101 91" Target="X3\.Lib:GlobalSetSingle">
                     <ConfigurableMethodTerminal ConfiguredValue="cageMaxPower">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
@@ -75,7 +75,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w19" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w10" Joints="N(n43:SequenceOut) N(n46:SequenceIn)" />
-                <ConfigurableWhileLoop Id="n15" Bounds="647 34 1563 389" DiagramId="d0" InterruptName="500">
+                <ConfigurableWhileLoop Id="n15" Bounds="645 34 1563 389" DiagramId="d0" InterruptName="500">
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w17" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 186 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="1545 186 18 18" />
                     <ConfigurableWhileLoop.BuiltInMethod CallType="LoopIndex">
@@ -277,7 +277,7 @@
                     <Wire Id="w32" Joints="N(n26:SequenceOut) N(n1:SequenceIn)" />
                     <ConfigurableWhileLoop.ConfigurableLoopTunnel AutoIndex="False" Id="b29" Terminals="n15=w24, d0=w31" Bounds="1103 356 30 63" />
                 </ConfigurableWhileLoop>
-                <ConfigurableMethodCall Id="n11" Bounds="546 187 101 91" Target="TimerReset\.vix">
+                <ConfigurableMethodCall Id="n11" Bounds="544 187 101 91" Target="TimerReset\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="2">
                         <Terminal Id="Timer" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -305,10 +305,10 @@
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <Wire Id="w18" Joints="N(n20:angle) v(22) h(375) N(n19:valueIn)" />
-                <Wire Id="w21" Joints="N(n20:error) v(30) h(445) N(n33:valueIn)" />
-                <Wire Id="w22" Joints="N(n20:gain) v(38) h(515) N(n43:valueIn)" />
-                <Wire Id="w23" Joints="N(n20:power) v(46) h(585) N(n46:valueIn)" />
-                <Wire Id="w24" Joints="N(n20:timeout) v(233) h(1805) N(b29:n15)" />
+                <Wire Id="w21" Joints="N(n20:error) v(30) h(443) N(n33:valueIn)" />
+                <Wire Id="w22" Joints="N(n20:gain) v(38) h(513) N(n43:valueIn)" />
+                <Wire Id="w23" Joints="N(n20:power) v(46) h(583) N(n46:valueIn)" />
+                <Wire Id="w24" Joints="N(n20:timeout) v(236) h(1803) N(b29:n15)" />
             </BlockDiagram>
             <Icon>
                 <Model0:IconPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Model0="clr-namespace:NationalInstruments.LabVIEW.VI.Design;assembly=NationalInstruments.LabVIEW.VI.SourceModel" xmlns:fpruntime="clr-namespace:NationalInstruments.LabVIEW.FrontPanelRuntime;assembly=NationalInstruments.LabVIEW.FrontPanelRuntime" xmlns:ation="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Height="98" Width="56">
