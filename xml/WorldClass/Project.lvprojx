@@ -40,11 +40,12 @@
                 <SourceFileReference StoragePath="RotateLFGreen.ev3p" RelativeStoragePath="RotateLFGreen.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RotateLFGreen\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="RotateLFGreen\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" />
                 <SourceFileReference StoragePath="Part1.ev3p" RelativeStoragePath="Part1.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Part1\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
-                <SourceFileReference StoragePath="Part4.ev3p" RelativeStoragePath="Part4.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Part4\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
-                <SourceFileReference StoragePath="Door.ev3p" RelativeStoragePath="Door.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Door\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
+                <SourceFileReference StoragePath="DoorOld.ev3p" RelativeStoragePath="DoorOld.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DoorOld\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
                 <SourceFileReference StoragePath="OpenDoor.ev3p" RelativeStoragePath="OpenDoor.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="OpenDoor\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
-                <SourceFileReference StoragePath="Program.ev3p" RelativeStoragePath="Program.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
+                <SourceFileReference StoragePath="Part4.ev3p" RelativeStoragePath="Part4.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Part4\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_PBR" Bindings="Envoy,DefinitionReference,EmbeddedReference" />
+                <SourceFileReference StoragePath="WatchForBlack.ev3p" RelativeStoragePath="WatchForBlack.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="WatchForBlack\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" />
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="WatchForBlack\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" />
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
@@ -190,5 +191,11 @@
             <Name>vi.lib_PBR</Name>
             <Location />
         </LoaderDefinition>
+    </Namespace>
+    <Namespace Name="WatchForBlack\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>WatchForBlack.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
     </Namespace>
 </SourceFile>
